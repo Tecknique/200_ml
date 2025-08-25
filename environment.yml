@@ -1,0 +1,17 @@
+name: onecell-portable
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - voila>=0.5,<0.6
+  - ipywidgets>=8,<9
+  - ipykernel>=6
+  - jupyter_server>=2,<3
+  - jupyterlab_widgets>=3,<4
+  - tornado>=6.2,<7
+  - ipympl>=0.9,<0.10
+  - matplotlib>=3.7,<3.10
+  - pandas>=2,<3
+  - numpy>=1.24,<3
+  - ipyfilechooser>=0.6,<0.7
+  - opencv>=4.8,<5
